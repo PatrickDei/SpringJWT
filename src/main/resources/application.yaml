@@ -1,0 +1,12 @@
+jwt:
+  token-validity-seconds: 3600
+  base64-secret: c29tZXN1cGVyc2VjcmV0cmVhbGx5aW1wb3J0YW50c3R1ZmYK
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+
+
+  h2:
+    console.enabled: true
